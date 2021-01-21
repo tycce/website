@@ -1,0 +1,57 @@
+.card__blur {
+    position: relative;
+    transition: filter 0.3s linear;
+}
+
+.card__blur:hover .card__eyes {
+    opacity: 1;
+}
+
+.card__blur:hover .card-img-top {
+    filter: blur(4px);
+}
+
+.card__eyes {
+    opacity: 0;
+    width: 2em;
+    height: 2em;
+
+    position: absolute;
+    top:50%;
+    left: 50%;
+
+    color:#fff;
+    cursor: pointer;
+    
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.shop__img {
+    width: 1.4em;
+    height: 1.4em;
+    cursor: pointer;
+}
+
+.shop__img:hover {
+    color: #28a745;
+}
+
+.ui-slider-range {
+    background: #007bff;
+}
+
+.card {
+    box-shadow: 2px 5px 9px rgba(216, 205, 205, 0.5);
+}
+
+.card:hover {
+    box-shadow: 2px 5px 9px rgba(29, 28, 28, 0.5);
+}
+
+#prices {
+    max-width: 200px;
+}
+
+.position-right {
+    right: 0;
+}

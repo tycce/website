@@ -1,0 +1,20 @@
+.select-border-first {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.select-border-second {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.select-border-third {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-control {
+    border-radius: .25rem;
+}
